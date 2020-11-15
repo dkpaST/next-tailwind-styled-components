@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from 'styled-components';
 import tw from 'twin.macro';
-import { i18n, Link, withTranslation } from '../i18n';
+import { i18n, Link, withTranslation } from '../../i18n';
 import Router, { withRouter } from 'next/router';
 
 const StyledNav = styled.nav`

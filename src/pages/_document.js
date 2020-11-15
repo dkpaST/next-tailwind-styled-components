@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
       // console.log("ctx: ", ctx);
       // console.log("cookies: ", cookies);
 
-      initialProps.language = cookies['next-i18next'] || 'en';
+      initialProps.language = cookies['next-i18next'] || 'pt';
       initialProps.direction = initialProps.language === 'ar' ? 'rtl' : 'ltr';
       return {
         html,

@@ -13,7 +13,7 @@ import {
   selectors,
 } from '../store/posts';
 import Header from '../components/Header';
-import { withTranslation } from '../i18n';
+import { withTranslation } from '../../i18n';
 
 import '../assets/css/pages/page1.css';
 // const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();

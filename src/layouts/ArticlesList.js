@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import tw from 'twin.macro';
 
 import ArticleCard from '../components/ArticleCard';
-import { withTranslation } from '../i18n';
+import { withTranslation } from '../../i18n';
 
 const Header = styled.h1`
   ${'' /* ${tw`font-mono text-6xl text-center text-black text-gray-800`} */}

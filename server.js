@@ -6,7 +6,7 @@ const next = require('next');
 const nextI18NextMiddleware = require('next-i18next/middleware').default;
 // const Cookies = require("universal-cookie");
 
-const routes = require('./routes');
+const routes = require('./src/routes');
 const nextI18next = require('./i18n');
 
 const port = process.env.PORT || 3000;

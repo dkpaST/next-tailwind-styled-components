@@ -8,7 +8,7 @@ import withRedux from 'next-redux-wrapper';
 import { Provider } from 'react-redux';
 import makeStore from '../store';
 
-import { appWithTranslation, i18n } from '../i18n';
+import { appWithTranslation, i18n } from '../../i18n';
 
 // import favicon from '../public/favicon.ico';
 

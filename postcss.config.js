@@ -11,11 +11,11 @@ module.exports = {
     !isDev
       ? require('@fullhuman/postcss-purgecss')({
           content: [
-            './pages/*.js',
-            './components/*.js',
-            './atoms/*.js',
-            './molecules/*.js',
-            './layouts/*.js',
+            './src/pages/*.js',
+            './src/components/*.js',
+            './src/atoms/*.js',
+            './src/molecules/*.js',
+            './src/layouts/*.js',
           ],
           defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || [],
         })
